@@ -5,9 +5,9 @@ This project implements a Slot Attention-based model to solve symbolic puzzles w
 
 ---
 
-## 🛠️ Project Workflow
+## Project Workflow
 
-### 1. 📦 Installing Dependencies
+### 1. Installing Dependencies
 
 Install the required libraries using the following command:
 
@@ -23,7 +23,7 @@ pip install torch torchvision einops numpy pillow
 
 ---
 
-### 2. 🧪 Generating Dataset
+### 2. Generating Dataset
 
 Start with a small number of raw examples stored in JSON format, each representing a pair of 3×3 input and 9×9 output matrices.
 
@@ -31,13 +31,13 @@ Then, use a `generate.py` script to generate 1000 additional examples based on t
 
 ---
 
-### 3. 📁 Preparing the Dataset
+### 3. Preparing the Dataset
 
 Run `dataset.py` to convert the raw and generated samples into a PyTorch `Dataset` object. Each 3×3 input is expanded into a 48×48 image (each cell is a 16×16 square), while the 9×9 output remains a matrix target.
 
 ---
 
-### 4. 🧠 Defining the Model
+### 4. Defining the Model
 
 Run `model.py` to build the Slot Attention model consisting of:
 
@@ -47,7 +47,7 @@ Run `model.py` to build the Slot Attention model consisting of:
 
 ---
 
-### 5. 🏋️ Training the Model
+### 5. Training the Model
 
 Run `train.py` to begin training. The training loop includes:
 
@@ -59,7 +59,7 @@ Since the dataset is pattern-specific and relatively small (2–5 base samples, 
 
 ---
 
-### 6. 🔍 Inference and Testing
+### 6. Inference and Testing
 
 After training:
 
@@ -84,7 +84,7 @@ You can run `inference.py` or a dedicated Colab notebook to visualize prediction
 
 ---
 
-## 💡 Logic Behind the Puzzle
+## Logic Behind the Puzzle
 
 The main transformation logic is as follows:
 
@@ -94,7 +94,7 @@ This forms the basis for all generated training examples.
 
 ---
 
-## 🧩 Custom Input Inference
+## Custom Input Inference
 
 ```python
 my_input = [
