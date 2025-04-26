@@ -80,7 +80,7 @@ def tile_rule(input_grid):
     return out
 ```
 
-You can run `inference.py` or a dedicated Colab notebook to visualize predictions.
+You can run `inference.py` and `prediction.py` to visualize predictions.
 
 ---
 
@@ -110,3 +110,6 @@ for row in predicted:
 ```
 
 Use this rule to verify if the Slot Attention model learns to generalize the puzzle logic effectively.
+
+## Predicted Output
+
