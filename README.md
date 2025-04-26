@@ -114,5 +114,9 @@ Use this rule to verify if the Slot Attention model learns to generalize the puz
 ## Predicted Output
 ![Screenshot 2025-04-26 132835](https://github.com/user-attachments/assets/b5030732-86b5-4797-8264-93772cabd402)
 
+![download (7)](https://github.com/user-attachments/assets/e8851049-a638-4594-ab69-7221de73bb36)
+![download (8)](https://github.com/user-attachments/assets/369bc96b-8ed1-44a1-b482-2713a611dcf3)
+
+
 
 
